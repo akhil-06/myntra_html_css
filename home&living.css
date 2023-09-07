@@ -299,13 +299,13 @@ margin-top: 75px;
 
 .product_categries img {
   width: 100%;
-  /* height: auto; */
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
 }
 
 .product_categries img:hover {
-  transform: scale(1.1);
-  /* transition: 2s; */
-  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+  transform: all 0.3s ease-in-out;
 }
 
 /* bice to see right */
@@ -374,11 +374,13 @@ margin-top: 75px;
 .wedding_pic img {
   width: 100%;
   /* height: 100%; */
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
 }
 
 .wedding_pic:hover img {
-  transform: scale(1.1);
-  transition: 0.5s ease;
+  transform: scale(1.05);
+  transform: all 0.3s ease-in-out;
   /* transition: ease-out; */
 }
 
@@ -416,14 +418,15 @@ margin-top: 75px;
 }
 
 .featured_compony img {
-  /* height: 100%; */
+   /* height: 100%; */
   width: 100%;
+  transform: scale(1);
+  transition: 0.4s ease-in-out;
 }
 .featured_compony img:hover{
-  transform: scale(1.05);
-  transition: all 0.3s ease-in-out;
+  transform: scale(1.04);
+  transform: all 0.3s ease-in-out;
 }
-
 
 /*  ------------------flat 40% off------------------  */
 
