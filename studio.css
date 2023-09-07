@@ -11,12 +11,12 @@
 body{
     font-family: 'Assistant', sans-serif;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 :root{
     --footer-text: rgb(83,87,102);
     --text-color: rgb(40,44,63);
 }
-
 
 /* navBar style start */
 .navbar {
