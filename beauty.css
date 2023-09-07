@@ -311,11 +311,10 @@ display: block;
 }
 /* ----------select form---------- */
 
- .bundles > form > select > option{
+.bundles > form > select > option{
     height: 18rem;
 }
-
-.form > form > select{
+.Recommend select{
     width: 250px;
     height: 40px;
     border: 1px solid #95959a;
@@ -323,7 +322,49 @@ display: block;
     margin-right: 2rem;
     font-size: 0.8rem;
     padding: 10px;
-    cursor: pointer;
+    line-height: 5rem;
+    margin-top: 35%;
+    /* border-bottom: 0; */
+    /* outline: none; */
+   
+    /* margin-top:75vh; */
+}
+.option_p{
+    margin: 0;
+    padding: 0;
+    line-height: 2.5rem;
+    text-align: left;
+    padding-left: 20px;
+    color: #696B79;
+    font-size: 0.9rem;
+
+}
+
+.option_p:hover{
+    background-color: #F5F5F6;
+    /* opacity: 0.2; */
+}
+.Recommend{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.Initial_no_show{
+    display: none;
+    position: absolute;
+    border-top: 0;
+    background-color: white;
+    z-index: 4;
+    width: 250px;
+    margin-top: 0;
+    top: 29%;
+    border: 1px solid #95959a;
+    border-top: 0;
+}
+
+.form:hover .Initial_no_show{
+    display: block;
+    /* z-index: 10; */
 }
 
 /* ------------sidebar-------------- */
