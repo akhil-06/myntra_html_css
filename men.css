@@ -14,7 +14,7 @@ body{
 .men{
     display: inline-block;
     margin-top: 16vh;
-
+    width: 100vw;
 }
 
 .men-container{
@@ -1129,6 +1129,9 @@ body{
     .men-FreeShippingBanner-sidebar {
       display: none;
     }
+    .ringing-bell{
+      display: none;
+    }
   
   }
   
@@ -1162,10 +1165,14 @@ body{
        /* ----- hero section ---------  */
     .men-card1{
     margin-top: 5rem;
-  }
+    }
     /* ------footer---------  */
-    .original, .return{
+    .original, .return, .men-card10{
       display: none;
+    }
+    .men{
+      /* border: 2px solid red; */
+      width: 100vw;
     }
   }
   @media screen and (max-width: 670px) {

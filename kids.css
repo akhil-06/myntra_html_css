@@ -515,8 +515,7 @@ body {
     height: auto;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    /* border: 2px solid blue; */
+
 }
 
 .kids-brand-wraper a {
@@ -527,12 +526,6 @@ body {
     width: 11vw;
 }
 
-@media screen and (max-width: 768px) {
-    .kids-brand-wraper a {
-        width: 20vw;
-          /* border: 2px solid red; */
-    }
-}
 
 
 /* -----------section 3 Kids - Top Picks */
@@ -544,7 +537,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    /* border: 2px solid blue; */
 }
 
 .kids-picks a {
@@ -587,11 +579,11 @@ body {
     height: auto;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .kids-iconicbrands a {
         width: 30vw;
     }
-}
+} */
 
 
 /* ------------Section 5 Kids- Fassion and Essentials */
@@ -655,7 +647,6 @@ body {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    /* border: 2px solid blue; */
 }
 
 .kids-kids-space a {
@@ -668,10 +659,10 @@ body {
 
 @media screen and (max-width: 768px) {
     .kids-kids-space a {
-        width: 80vw;
+        width: 100%;
     }
     .kids-kids-space a img {
-        width: 80vw;
+        width: 100%;
     }
 }
 
@@ -939,39 +930,37 @@ body {
         margin-top: 15px;
         margin-bottom: 0;
     }
-    .gyan_section_h1 {
-        font-size: 12px;
-        margin-top: 20px;
-    }
-    .gyan_section_p {
-        font-size: 12px;
-        line-height: 16px;
-        margin-top: 10px;
-    }
-    .get_app img {
-        width: 110px;
-        height: auto;
-    }
-    .original, .return{
-        display: none;
-    }
-    .men-FreeShippingBanner-sidebar {
-        display: none;
-    }
-    .navbar, .navbar2 {
-    overflow-x: hidden;
-   
-    }
-    .kids-brand-wraper {
-      width: 95%;
+  .gyan_section_h1 {
+    font-size: 12px;
+    margin-top: 20px;
   }
-  .kids-kids-space {
-    width: 95%;
+  .gyan_section_p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px; 
+  }
+  .get_app img {
+    width: 110px;
+    height: auto;
+  }
+  .original, .return{
+    display: none;
+  }
+  .men-FreeShippingBanner-sidebar {
+    display: none;
+  }
+  .navbar, .navbar2 {
+    overflow-x: hidden;
+  }
+  .kids-picks {
+    gap: 15px;
+  }
+  .kids-brand-wraper {
+    width: 100%;
   }
   .popular_search {
     display: none;
-}
-
+  }
 }
 @media screen and (max-width: 1000px) {
     /* --------navbar---------  */
